@@ -44,13 +44,13 @@ CREATE TABLE products (
 );
 
 ```
-###2.Install & Run Backend
+### 2.Install & Run Backend
 
 cd ecommerce-project/backend
 npm install
 node server.js
 
-###3. Open Frontend
+### 3. Open Frontend
 Open ecommerce-project/frontend/index.html in browser
 
 
