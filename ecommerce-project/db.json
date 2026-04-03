@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gold Hoop Earrings",
+      "price": 1299,
+      "category": "Earrings",
+      "stock": 40
+    },
+    {
+      "id": 2,
+      "name": "Pearl Drop Necklace",
+      "price": 2499,
+      "category": "Necklaces",
+      "stock": 22
+    },
+    {
+      "id": 3,
+      "name": "Diamond Tennis Bracelet",
+      "price": 4999,
+      "category": "Bracelets",
+      "stock": 15
+    }
+  ]
+}
