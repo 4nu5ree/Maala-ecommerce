@@ -6,12 +6,22 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+/** 
 const db = mysql.createConnection({
   host: "localhost",
   user: "ecom_user",
   password: "1234", 
   database: "ecommerce_db"
 });
+*/
+
+const db = mysql.createConnection({
+  host: process.env.DB_HOST || "localhost",
+  user: process.env.DB_USER || "ecom_user",
+  password: process.env.DB_PASSWORD || "1234",
+  database: process.env.DB_NAME || "ecommerce_db"
+});
+
 
 db.connect((err) => {
   if (err) {
