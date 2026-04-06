@@ -63,7 +63,7 @@ echo "# MAALA - Academic Project" > README.md
 
 git add README.md
 git commit -m "Add README for academic project"
-git push origin userAdd
+git push origin main
 ```
 
 Author
